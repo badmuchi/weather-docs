@@ -1,0 +1,7 @@
+site_name: Документация WeatherSniffer
+theme:
+  name: material
+
+nav:
+  - Главная: index.md
+  - Руководство CLI: api.md
