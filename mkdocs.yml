@@ -5,3 +5,7 @@ theme:
 nav:
   - Главная: index.md
   - Руководство CLI: api.md
+
+plugins:
+  - search
+  - swagger-ui-tag
