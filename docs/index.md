@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Документация WeatherSniffer
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> **О проекте (Портфолио технической документации):**  
+> Учебный пет-проект, созданный для демонстрации навыков разработки пользовательской и API-документации в формате Docs-as-Code (Markdown, MkDocs Material, OpenAPI / Swagger).
 
-## Commands
+**WeatherSniffer** — легковесная консольная утилита (CLI) и сервис для получения актуальных метеоданных по названию города или IP-адресу с поддержкой вывода в формате JSON для автоматизации.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+## Разделы документации
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* **Руководство пользователя (CLI)** — установка утилиты, синтаксис команд, флаги запуска и примеры использования в терминале.
+* **Справочник REST API** — описание эндпоинтов, параметров запросов, кодов ответов и интерактивная спецификация OpenAPI 3.0.
+
+---
+
+## Использованный стек
+
+* **Генератор документации:** MkDocs + тема Material
+* **Спецификация API:** OpenAPI 3.0 (YAML)
+* **Формат контента:** Markdown, примеры CLI-команд и JSON-структур
